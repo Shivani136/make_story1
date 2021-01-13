@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Story Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        <header >
+            <img src="img/index.jpeg" alt="description" width="100px" height="70px"> 
+            <h1>Make-Story</h1>
+            <p>Fill Your Dream Characters</p>
+        </header>
+      
+        <br>
+        <section >
+            <form >
+               <br>
+                <label for="animal-1">Animal:</label>
+                <br>
+                
+                <input id="text-field"  type="text" placeholder="your favorite Animal">
+                <br><br>
+                <label for="animal-2">Another Animal:</label>
+                <br>
+                <input id="text-field" type="text" placeholder="your favorite  Another Animal">
+                <br><br>
+                <label for="animal-3">One More Animal:</label>
+                <br>
+                <input id="text-field" type="text" placeholder="your favorite One More Animal" >
+                <br><br>
+                <label for="adj-1">Adjective (Past Tense):</label>
+                <br>
+                <input id="text-field"  type="text" placeholder="adjective of past tense" >
+                <br><br>
+                <label for="verb-1">Verb (ends in -ing):</label>
+                <br>
+                <input id="text-field"  type="text"  placeholder="ing form of verb" >
+                <br><br>
+                <label for="num-1">Number:</label>
+                <br>
+                <input id="text-field"  type="text"  placeholder="put any desired no"  >
+                <br><br>
+                <span>Yes or No</span>
+                <br><br>
+                <input id="yes"  type="radio"   name="answer" value="yes" >
+                <label for="yes">yes</label>
+                <input id="no" type="radio"  name="answer" value="no">
+                <label for="yes">no</label>
+                <br><br>
+                <br><br>
+                <label for="quote">Relative speed (ends in -er)</label>
+                <br>
+                <br>
+              
+                <select id="speed" name="name" required>
+                    <option value="faster">Faster</option>
+                    <option value="quicker">Quicker</option>
+               
+                </select>
+                <br><br>
+                <label for="quote">Motivational Quote</label>
+                <br>
+                <input id="text-field"  type="text" list="quote-choice"   placeholder="Example" required>
+                <dtatlist id="quote-choice">
+                    <option value="codeacadmy"></option>
+                    <option value="code"></option>
+                    <option value="example"></option>
+                </dtatlist>
+                <label for="message">Meaningful Meassage</label>
+                <br>
+                <textarea id="message"  rows="8"  cols="40"  placeholder="Meaningful Meassage" ></textarea>
+                
+                <br><br> 
+               
+            </form>
+            <input  class="form-button"  type="submit" value="Form Your Story">
+        </section>
+        <footer>
+            <p>@ All rights reserved with  <b class="footer-b">DESIGN PVT. LTD.</b></p>
+        </footer>
+    </body>
+</html>
